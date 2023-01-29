@@ -111,7 +111,7 @@
         }
 
         function count_view() {
-            fetch('https://api.countapi.xyz/update/pemasz.github.io/pemasz/?amount=-1')
+            fetch('https://api.countapi.xyz/update/pemasz.github.io/pemasz/?amount=1')
                 .then((res) => res.json())
                 .then((res) => {
                     view_count.innerHTML = res.value + " View";
